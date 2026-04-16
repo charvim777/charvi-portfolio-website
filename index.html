@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Charvi M — Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&family=Cormorant+Garamond:ital,wght@1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand brand-logo" href="index.html">CM</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-2">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="works.html">Works</a></li>
+          <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero-section d-flex align-items-center">
+    <div class="hero-blob blob-1"></div>
+    <div class="hero-blob blob-2"></div>
+    <div class="hero-blob blob-3"></div>
+    <div class="container position-relative">
+      <div class="row align-items-center min-vh-100 py-5">
+        <div class="col-lg-7 hero-text-col">
+          <p class="hero-tag animate-up delay-0">✦ BCA AI · CS & IT · Jain University</p>
+          <h1 class="hero-title animate-up delay-1">
+            Hello, I'm<br/>
+            <span class="name-highlight">Charvi M</span>
+          </h1>
+          <p class="hero-sub animate-up delay-2">
+            A creative technologist blending code, design & sustainability —<br class="d-none d-md-block"/>
+            building things that matter.
+          </p>
+          <div class="hero-cta d-flex gap-3 flex-wrap animate-up delay-3">
+            <a href="works.html" class="btn btn-primary-custom">View My Work <i class="bi bi-arrow-right ms-1"></i></a>
+            <a href="contact.html" class="btn btn-outline-custom">Say Hello</a>
+          </div>
+        </div>
+        <div class="col-lg-5 d-flex justify-content-center mt-5 mt-lg-0">
+          <div class="hero-card-wrap animate-float">
+            <div class="hero-avatar-card">
+              <div class="avatar-circle">
+                <span class="avatar-initial">CM</span>
+              </div>
+              <div class="card-badges">
+                <span class="badge-pill">Web Dev 💻</span>
+                <span class="badge-pill">Python 🐍</span>
+                <span class="badge-pill">Sustainability 🌿</span>
+                <span class="badge-pill">Design ✨</span>
+              </div>
+              <div class="card-footer-text">Bangalore, India 📍</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-strip">
+    <div class="marquee-inner">
+      <span>Web Development</span><span class="dot">✦</span>
+      <span>Python</span><span class="dot">✦</span>
+      <span>Sustainable Fashion</span><span class="dot">✦</span>
+      <span>Budget Tech</span><span class="dot">✦</span>
+      <span>People Management</span><span class="dot">✦</span>
+      <span>Communication</span><span class="dot">✦</span>
+      <span>BCA AI · Jain University</span><span class="dot">✦</span>
+      <span>Web Development</span><span class="dot">✦</span>
+      <span>Python</span><span class="dot">✦</span>
+      <span>Sustainable Fashion</span><span class="dot">✦</span>
+      <span>Budget Tech</span><span class="dot">✦</span>
+      <span>People Management</span><span class="dot">✦</span>
+      <span>Communication</span><span class="dot">✦</span>
+      <span>BCA AI · Jain University</span><span class="dot">✦</span>
+    </div>
+  </div>
+
+  <!-- QUICK PREVIEW SECTION -->
+  <section class="quick-preview py-5">
+    <div class="container">
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-4">
+          <div class="preview-card" onclick="location.href='about.html'">
+            <div class="preview-icon">🎓</div>
+            <h3>About Me</h3>
+            <p>BCA AI student at Jain University with a passion for technology and sustainability.</p>
+            <span class="preview-link">Explore <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="preview-card featured" onclick="location.href='works.html'">
+            <div class="preview-icon">🚀</div>
+            <h3>My Projects</h3>
+            <p>3 impactful projects — from sustainable fashion to smart budget tracking.</p>
+            <span class="preview-link">View All <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="preview-card" onclick="location.href='contact.html'">
+            <div class="preview-icon">💌</div>
+            <h3>Let's Connect</h3>
+            <p>Open to collaborations, internships, and creative opportunities.</p>
+            <span class="preview-link">Contact <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer text-center py-4">
+    <p>© 2025 Charvi M · Made with 💛 & 🌸 · Bangalore</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

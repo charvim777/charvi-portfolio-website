@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — Charvi M</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&family=Cormorant+Garamond:ital,wght@1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand brand-logo" href="index.html">CM</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-2">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="works.html">Works</a></li>
+          <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="hero-blob blob-1"></div>
+    <div class="hero-blob blob-2"></div>
+    <div class="container">
+      <div class="row justify-content-center text-center pt-5 mt-3">
+        <div class="col-lg-8">
+          <p class="page-tag animate-up">✦ Let's build something together</p>
+          <h1 class="page-title animate-up delay-1">Say <span class="name-highlight">Hello</span></h1>
+          <p class="page-subtitle animate-up delay-2">Whether it's a project, collaboration, or just a chat — I'd love to hear from you!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-section py-5">
+    <div class="container">
+      <div class="row g-5 align-items-start">
+
+        <!-- INFO -->
+        <div class="col-lg-5 animate-up">
+          <h2 class="section-heading mb-4">Get in <span class="name-highlight">Touch</span></h2>
+          <p class="about-body mb-4">
+            I'm currently open to internships, freelance projects, collaborations, and conversations about technology, design, and sustainability. Don't hesitate to reach out!
+          </p>
+
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="bi bi-envelope-heart"></i></div>
+              <div>
+                <p class="cii-label">Email</p>
+                <p class="cii-value">charvi.m@jainuniversity.ac.in</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="bi bi-geo-alt"></i></div>
+              <div>
+                <p class="cii-label">Location</p>
+                <p class="cii-value">Bangalore, Karnataka, India</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="bi bi-mortarboard"></i></div>
+              <div>
+                <p class="cii-label">University</p>
+                <p class="cii-value">Jain Deemed to be University</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links mt-4 d-flex gap-3">
+            <a href="#" class="social-btn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="social-btn"><i class="bi bi-github"></i></a>
+            <a href="#" class="social-btn"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="social-btn"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+
+        <!-- FORM -->
+        <div class="col-lg-7 animate-up delay-1">
+          <div class="contact-form-card">
+            <form id="contactForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label-custom">Your Name</label>
+                  <input type="text" class="form-control form-control-custom" placeholder="Jane Doe" required/>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label-custom">Your Email</label>
+                  <input type="email" class="form-control form-control-custom" placeholder="jane@example.com" required/>
+                </div>
+                <div class="col-12">
+                  <label class="form-label-custom">Subject</label>
+                  <input type="text" class="form-control form-control-custom" placeholder="Let's collaborate on..."/>
+                </div>
+                <div class="col-12">
+                  <label class="form-label-custom">Your Message</label>
+                  <textarea class="form-control form-control-custom" rows="5" placeholder="Hi Charvi! I'd love to..."></textarea>
+                </div>
+                <div class="col-12 mt-2">
+                  <button type="submit" class="btn btn-primary-custom w-100">
+                    Send Message <i class="bi bi-send ms-2"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+            <div id="formSuccess" class="form-success-msg d-none">
+              <div class="success-inner">
+                <div class="success-emoji">🌸</div>
+                <h4>Message Sent!</h4>
+                <p>Thank you for reaching out. I'll get back to you soon!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AVAILABILITY -->
+  <section class="availability-section py-4">
+    <div class="container">
+      <div class="availability-card text-center animate-up">
+        <span class="avail-dot"></span>
+        <span class="avail-text">Currently open to internships & collaborations in Bangalore</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer text-center py-4">
+    <p>© 2025 Charvi M · Made with 💛 & 🌸 · Bangalore</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
